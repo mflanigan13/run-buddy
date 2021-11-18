@@ -1,87 +1,88 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-    color: #39a6b2;
-    font-family: Helvetica, Arial, sans-serif;
-  }
-  
+  color: #39a6b2;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
-  }
+  padding: 20px 35px;
+  background-color: #39a6b2;
+}
 
-  header a {
-    text-decoration: none;
-    color: #fce138;
-  }
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
 
-  header nav {
-    float: right;
-    margin: 7px 0;
-  }
+header nav {
+  float: right;
+  margin: 7px 0;
+}
 
-  header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
-  }
-  
-  header nav ul li {
-    display: inline;
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-  }
+header h1 {
+  font-weight: bold;
+  font-size: 36px;
+  color: #fce138;
+  margin: 0;
+  display: inline;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 22px;
+}
 
 footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
 }
 
 footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-  }
+  display: inline;
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
 
-  footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-  }
+footer div {
+  float: right;
+  line-height: 1.5;
+  text-align: right;
+}
 
-  footer a {
-    color: #024e76;
-  }
+footer a {
+  color: #024e76;
+}
 
 section {
-    padding: 60px
+  padding: 60px
 }
 
 /* Hero Style Start */
 .hero {
-    background-image:  url("https://static.fullstack-bootcamp.com/module-2/flipped-hero-image.jpg");
-    height: 600px;
-    background-size: cover;
-    background-position: center;
-  }
-  /* Hero Style End */
+  background-image: url("https://static.fullstack-bootcamp.com/module-2/flipped-hero-image.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
 
-  .hero-form {
-    background-color: #fce138;
-    padding: 20px;
-    width: 500px;
-    color: #024e76;
-    border: solid 3px #024e76;
-  }
+/* Hero Style End */
+
+.hero-form {
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  color: #024e76;
+  border: solid 3px #024e76;
+}
 
 /* What-we-do section */
 .intro {
@@ -153,8 +154,8 @@ section {
   width: 900px;
   margin: 0 auto 30px auto;
   background: #024e76;
-  color:#fce138;
-  overflow: auto; 
+  color: #fce138;
+  overflow: auto;
 }
 
 .trainer img {
@@ -200,7 +201,7 @@ section {
 }
 
 .contact h2 {
-  color:#fce138;
+  color: #fce138;
 }
 
 .contact-info iframe {
@@ -224,7 +225,7 @@ section {
   font-size: 32px;
 }
 
-.contact-info p, 
+.contact-info p,
 .contact-info address {
   margin: 20px 0;
   line-height: 1.5;
